@@ -1,0 +1,176 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(to right, #7f00ff, #E100ff);
+  clip-path: ellipse(71% 59% at 50% 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.header-text h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+
+.header-text p {
+  font-size: 1.2em;
+}
+
+.btn-outline {
+  outline: none;
+  color: #7f00ff;
+  background-color: #fff;
+  border-color: #fff;
+  padding: 20px 30px;
+}
+
+.btn-dark {
+  outline: none;
+  color: #fff;
+  background-color: #7f00ff;
+  border-color: #7f00ff;
+  padding: 20px 30px;
+}
+
+.btn-outline:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 50px 30px;
+}
+
+.box-shadow {
+  border-radius: 20px;
+  border: 1px solid #454545;
+}
+
+.row {
+  display: flex;
+}
+
+.center { 
+  text-align: center;
+  margin: 0 auto;
+}
+
+.position-relative { 
+  position: relative;
+}
+
+.flex-image-top {
+    margin-top: -60px;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 999;
+}
+
+.box {
+  text-align: center;
+}
+
+.p-t {
+  padding-top: 4em;
+}
+
+.p-y {
+  padding: 4em 0;
+}
+
+.p-x {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.title {
+  font-size: 2.5em;
+}
+@media screen and ( max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.list-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+}
+
+.list-menu > li {
+  border: 1px solid black; 
+  padding: 20px 30px;  
+}
+
+.list-menu li button {
+  outline: none;
+  text-decoration: none;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  float: right;
+  padding: 10px 15px;  
+}
